@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "RequestRating"
 include(":app")
+include(":RequestRating")
