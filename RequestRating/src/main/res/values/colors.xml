@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#03A9F4</color>
+
+    <color name="systemBackground">#FFFFFFFF</color>
+    <color name="secondarySystemBackground">#FFF2F2F7</color>
+    <color name="tertiarySystemBackground">#FFFFFFFF</color>
+    <color name="systemGroupedBackground">#FFF2F2F7</color>
+    <color name="secondarySystemGroupedBackground">#FFFFFFFF</color>
+    <color name="tertiarySystemGroupedBackground">#FFF2F2F7</color>
+
+    <color name="label">#FF000000</color>
+    <color name="labelNight">#FFFFFFFF</color>
+    <color name="secondaryLabel">#993C3C43</color>
+    <color name="secondaryLabelLight">#993C3C43</color>
+    <color name="secondaryLabelNight">#99EBEBF5</color>
+    <color name="tertiaryLabel">#4D3C3C43</color>
+    <color name="tertiaryLabelNight">#4DEBEBF5</color>
+    <color name="quaternaryLabel">#2E3C3C43</color>
+    <color name="placeholderText">#4D3C3C43</color>
+
+    <color name="separator">#4A3C3C43</color>
+    <color name="separatorNightClear">#4A3C3C43</color>
+    <color name="opaqueSeparator">#FFC6C6C8</color>
+    <color name="opaqueSeparatorNight">#FF38383A</color>
+</resources>

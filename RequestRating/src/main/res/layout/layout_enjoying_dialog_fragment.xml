@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        tools:background="@color/white"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/systemBackground"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="44dp">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/enjoying_app_name"
+                android:textColor="@color/blue"
+                android:textSize="24dp"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/message_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/roboto_regular"
+                android:lineSpacingMultiplier="1.3"
+                android:paddingHorizontal="16dp"
+                android:text="@string/enjoying_message"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/secondaryLabel"
+                tools:ignore="SpUsage" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/no_button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.vanniktech.emoji.EmojiTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5"
+                        android:text="☹️"
+                        android:textAllCaps="false"
+                        android:textSize="24dp"
+                        tools:ignore="HardcodedText,SpUsage" />
+
+                    <com.vanniktech.emoji.EmojiTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5"
+                        android:text="Could be later"
+                        android:textAllCaps="false"
+                        android:textColor="@color/blue"
+                        android:textSize="17dp"
+                        tools:ignore="SpUsage" />
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/yes_button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.vanniktech.emoji.EmojiTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5"
+                        android:text="😍"
+                        android:textAllCaps="false"
+                        android:textSize="24dp"
+                        tools:ignore="HardcodedText,SpUsage" />
+
+                    <com.vanniktech.emoji.EmojiTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5"
+                        android:text="Still loving it"
+                        android:textAllCaps="false"
+                        android:textColor="@color/blue"
+                        android:textSize="17dp"
+                        tools:ignore="SpUsage" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

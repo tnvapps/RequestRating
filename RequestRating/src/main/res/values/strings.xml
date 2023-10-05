@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enjoying_app_name">Enjoying %s?</string>
+    <string name="enjoying_message">We\'d love to know if you\'re still enjoying %s?</string>
+    <string name="review_app_name">Review %s :)</string>
+    <string name="review_message">Your reviews keep our small team motivated to make %s even better.</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="write_a_review">Write a review</string>
+</resources>
